@@ -16,6 +16,6 @@ def get_the_min(groceries)
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 } 
-groceries.min
-binding.pry
+ groceries.values.flatten.min
+
 end
