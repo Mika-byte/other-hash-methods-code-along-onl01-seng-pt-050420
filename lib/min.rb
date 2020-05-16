@@ -15,6 +15,8 @@ def get_the_min(groceries)
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 } 
- groceries.min
+letters = {a: 1, b: 2}
+letters.min
+# =>[:a, 1]
 
 end
